@@ -1,0 +1,10 @@
+torch
+torchvision
+transformers
+pillow
+numpy
+tqdm
+scikit-image
+lpips
+nibabel
+opencv-python
