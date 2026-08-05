@@ -1,0 +1,40 @@
+# ==========================================
+# 1. DATASETS (Heavy folders)
+# ==========================================
+Endoscopy/CVC-ClinicDB/
+Endoscopy/ETIS-Larib/
+Endoscopy/External_Test_Images/
+MRI/dataset/
+
+# ==========================================
+# 2. MODEL WEIGHTS
+# ==========================================
+# Catches the specific ones you have, plus any future models
+*.pth
+*.pt
+*.ckpt
+
+# ==========================================
+# 3. GENERATED OUTPUT IMAGES
+# ==========================================
+# Prevents your demo scripts from bloating the repo every time you test them
+Endoscopy/demo_result.png
+Endoscopy/demo_results_grid.png
+MRI/mri_demo_results_grid.png
+MRI/top_psnr_error_maps.png
+
+# ==========================================
+# 4. PYTHON CACHES & ENVIRONMENTS
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.env
+
+# ==========================================
+# 5. OS SYSTEM FILES
+# ==========================================
+.DS_Store
+Thumbs.db
